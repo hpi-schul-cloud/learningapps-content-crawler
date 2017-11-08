@@ -1,0 +1,9 @@
+# Ignore some config and node_modules files.
+config/
+node_modules/
+.vscode/
+*.txt
+package-lock.json
+.env
+.vscode
+.config

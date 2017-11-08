@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+  learningapps-content-crawler:
+    image: learningapps-content-crawler:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      PORT: ${PORT}
+      ENDPOINTURI: ${ENDPOINTURI}
+      CONTENT_USER: ${CONTENT_USER}
+      CONTENT_PASSWORD: ${CONTENT_PASSWORD}
+      NOPOST: ${NOPOST}
+      XML_URL: ${XML_URL}
+    ports:
+      - 5001:5001
+      - 9501:9501
+    volumes:
+      - .:/home/node/app
+      - /home/node/app/node_modules
+    command: npm run debug
