@@ -23,7 +23,7 @@ function _getItemsMeta(sourceItems) {
             subject: item['$category'],
             tags:  tags,
             mimeType: 'text/html',
-            licenses: ["CC BY"]
+            licenses: ["LearningApps Lizenz"]
         })
     })
     
