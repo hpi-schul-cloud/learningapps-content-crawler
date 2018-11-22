@@ -1,4 +1,7 @@
 # learningapps-content-crawler
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/schul-cloud/learningapps-content-crawler.svg)](https://greenkeeper.io/)
+
 Fetching interactive OER material hosted on https://www.learningapps.org/ by a given API; posting their converted meta information to a Schul-Cloud endpoint.
 Note that one should contact the learningapps-team to get the API details, which are not given here.
 
