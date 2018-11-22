@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "local_modules/sc_learningapps/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
